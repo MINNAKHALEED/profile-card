@@ -1,0 +1,44 @@
+.middlediv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+} 
+.middlediv >img{
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin-top: -50px;
+}
+.middletext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 6px;
+}
+.toptext{
+  display: flex;
+  align-items: center; 
+  column-gap: 10px;
+}
+
+.toptext .name{
+  color: hsl(229, 23%, 23%);
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.toptext .number{
+  color: hsl(0, 0%, 59%) ;
+  font-size: 18px;
+}
+
+.middletext .capital{
+  color: hsl(0, 0%, 59%) ;
+  font-size: 17px;
+  text-transform: capitalize;
+}

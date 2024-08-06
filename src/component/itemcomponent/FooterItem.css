@@ -1,0 +1,25 @@
+.footeritem{
+  margin-top: 15px;
+}
+.stats{
+  display: flex;
+  flex-direction: column;
+   align-items: center; 
+  row-gap: 5px;
+
+}
+
+.statsnumber{
+  color: hsl(229, 23%, 23%);
+}
+
+.statstitle{
+  font-size: 14px;
+  color: hsl(0, 0%, 59%);
+  text-transform: capitalize;
+}
+
+
+
+
+
